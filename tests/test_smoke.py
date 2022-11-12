@@ -7,7 +7,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 
-# каждый тест должен начинаться с test_
+# каждый тест начинается с test_
 def test_product_view_sku():
     """
     Test case WERT-1
